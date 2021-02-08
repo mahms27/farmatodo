@@ -21,7 +21,7 @@ De igual forma se debe crear en MySql la base de datos farmatodo
 
 El proyecto corre por el puerto 8080 a continuación se adjuntan el listado de endpoint del api rest.
 
-1.	localhost:8080/api/farmatodo/rickandmorty/getepisode/{episodio}
+1.	http://localhost:8080/api/farmatodo/rickandmorty/getepisode/{episodio}
 esta api GET   recibe como parámetro de entrada el número del episodio a consultar
 ejemplo : localhost:8080/api/farmatodo/rickandmorty/getepisode/1
 
@@ -38,7 +38,7 @@ Ejemplo http://localhost:8080/api/farmatodo/getHappyNumbers
     7
 ]
 
-3.	localhost:8080/api/farmatodo/addnaturalnumber/{numero}
+3.	http://localhost:8080/api/farmatodo/addnaturalnumber/{numero}
 
 este api GET recibe como parámetro de entrada un número natural
 
